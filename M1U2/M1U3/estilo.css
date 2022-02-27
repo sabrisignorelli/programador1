@@ -1,0 +1,48 @@
+h1{
+    text-align: center; /*alineacion*/
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    background-color: aquamarine;
+    color: darkslateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3{
+    background-color: aquamarine;
+    color: navy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: indigo;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.destacados{
+    font-weight: bold;
+    color:darkorchid
+}
+
+ul{
+    color: indigo;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5{
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslateblue;
+}
+
+img{
+    filter: grayscale(100%)
+}
+
+img:hover{
+    filter: grayscale(0%)
+}
+
