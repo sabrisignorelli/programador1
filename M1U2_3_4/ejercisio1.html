@@ -6,8 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Sabrina Signorelli</title>
     <link rel="stylesheet" href="M1U3/estilo.css">
+    <script type="text/javascript">
+
+    </script>
 </head>
 <body>
+    <script>
+        var nombre;
+        var distancia;
+
+        nombre=prompt('¿Como te llamas?')
+        distancia=prompt('¿Cuantos metros vas a recorrer?')
+
+        document.write(nombre)
+        document.write(', tendrás que viajar ')
+
+        if (distancia> 0 && distancia<= 1000) 
+
+document.write ('a pie')
+
+else if (distancia> 1000 && distancia<= 10000) 
+
+document.write ('en bicicleta')
+
+else if (distancia> 10000 && distancia<= 30000)
+
+document.write ('en colectivo')
+
+else if (distancia> 30000 && distancia<= 100000)
+
+document.write ('en auto')
+
+else if (distancia> 100000)
+
+document.write ('en avión')
+
+var numeros = ['36','12','35','163','65']
+
+var mayor= 163;
+
+for (var i = 0; i < numeros.length; i++)
+if(numeros[i] > mayor)
+mayor = numeros[i];
+
+console.log('El mayor número es ' + mayor)
+
+
+
+    </script>
     <!--Esto es un comentario en HTML jeje-->
     <h1>Sabrina Signorelli</h1>
     <img src="Black+Tie+Yak.jpeg" alt="mark ryden">
